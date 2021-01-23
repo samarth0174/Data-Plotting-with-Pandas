@@ -5,7 +5,7 @@ Understanding your data in order to get the best results from machine learning a
 This notebook covers a mini project visualising the data by plotting data(Univariate & multivaraite) using pandas.
 <br>
 
-## Data plotting using Pandas:
+## 1. Data plotting using Pandas:
 * Histograms
 * Density Plots
 * Box and Whisker Plots
@@ -14,38 +14,23 @@ This notebook covers a mini project visualising the data by plotting data(Univar
 
 <br>
 
-## Libraries Required:
-- Matplotlib
-- pandas
-- numpy
+## 2. Sales analysis:
+use Python Pandas & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. 
+Once cleaned up our data a bit, we move the data exploration section. In this section we explore 5 high level business questions related to our data:
+- What was the best month for sales? How much was earned that month?
+- What city sold the most product?
+- What time should we display advertisemens to maximize the likelihood of customer’s buying product?
+- What products are most often sold together?
+- What product sold the most? Why do you think it sold the most?
 
-## Data Attribute Information
-In this project, we'll be using diabetes using Pima Indian diabetes dataset available on Kaggle. The dataset consists of 768 rows with 8 characteristics and an outcome, in particular:
+To answer these questions we walk through many different pandas & matplotlib methods. They include:
+- Concatenating multiple csvs together to create a new DataFrame (pd.concat)
+- Adding columns
+- Parsing cells as strings to make new columns (.str)
+- Using the .apply() method
+- Using groupby to perform aggregate analysis
+- Plotting bar charts and lines graphs to visualize our results
+- Labeling our graphs
 
-For Each Attribute: (all numeric-valued)
-   1. Number of times pregnant
-   2. Plasma glucose concentration a 2 hours in an oral glucose tolerance test
-   3. Diastolic blood pressure (mm Hg)
-   4. Triceps skin fold thickness (mm)
-   5. 2-Hour serum insulin (mu U/ml)
-   6. Body mass index (weight in kg/(height in m)^2)
-   7. Diabetes pedigree function
-   8. Age (years)
-   9. Class variable (0 or 1)
-
-
-## License & References:
-- The original dataset can be acessed at <a href="https://archive.ics.uci.edu/ml/datasets/diabetes">UCI REPOSITORY</a>
-```
-Sources:
-   (a) Original owners: National Institute of Diabetes and Digestive and
-                        Kidney Diseases
-   (b) Donor of database: Vincent Sigillito (vgs@aplcen.apl.jhu.edu)
-                          Research Center, RMI Group Leader
-                          Applied Physics Laboratory
-                          The Johns Hopkins University
-                          Johns Hopkins Road
-                          Laurel, MD 20707
-                          (301) 953-6231
-   (c) Date received: 9 May 1990
-```
+## 3. Pandas Basics:
+   Basic Pandas Operations
