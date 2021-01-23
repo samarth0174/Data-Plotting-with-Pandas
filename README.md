@@ -2,7 +2,10 @@
 ## Problem Description:
 Understanding your data in order to get the best results from machine learning algorithms is a challenging task.The fastest way to learn more about your data is to use data visualization.
 
-This notebook covers a mini project visualising the data by plotting data(Univariate & multivaraite) using pandas.
+3 notebooks cover 
+1. a mini project visualising the data by plotting data(Univariate & multivaraite) using pandas.
+2. Sales analysis-  Data exploration 
+3. Pandas basics
 <br>
 
 ## 1. Data plotting using Pandas:
